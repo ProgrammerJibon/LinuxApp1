@@ -1,4 +1,4 @@
-module pro.jibon.apps.linuxapp1 {
+module pro.jibon.apps.linuxapp {
     requires javafx.controls;
     requires javafx.graphics;
     requires javafx.fxml;
@@ -6,6 +6,9 @@ module pro.jibon.apps.linuxapp1 {
     requires org.json;
     requires java.desktop;
     requires javafx.swing;
+    requires webcam.capture;
+    requires opencv;
+    requires javafx.web;
 
 
     opens pro.jibon.apps.linuxapp1 to javafx.fxml;
